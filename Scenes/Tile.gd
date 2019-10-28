@@ -5,6 +5,7 @@ var red = preload("res://Assets/tile_red.png")
 var blue = preload("res://Assets/tile_blue.png")
 var green = preload("res://Assets/tile_green.png")
 var purple = preload("res://Assets/tile_purple.png")
+var yellow = preload("res://Assets/tile_yellow.png")
 
 onready var sprite = get_node("Sprite")
 var score = 10
@@ -24,3 +25,6 @@ func _ready():
    if get_parent().name == "Purple Tiles":
        sprite.set_texture(purple)
        score = 50
+   if get_parent().name == "Yellow Tiles":
+       sprite.set_texture(yellow)
+       score = 60

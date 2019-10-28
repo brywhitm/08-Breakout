@@ -3,7 +3,7 @@
 [ext_resource path="res://Scenes/Tile.gd" type="Script" id=1]
 [ext_resource path="res://Assets/tile_gray.png" type="Texture" id=2]
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32.5449, 16.5499 )
 
 [node name="Tile" type="StaticBody2D" groups=[
@@ -16,4 +16,4 @@ script = ExtResource( 1 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 4 )
+shape = SubResource( 1 )
