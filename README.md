@@ -1,2 +1,3 @@
 # 08-Breakout
-First 2D game in Godot
+Bryce Whitmer 10/28/2019
+First 2D game in Godot.
